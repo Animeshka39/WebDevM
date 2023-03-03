@@ -1,3 +1,4 @@
-var numbers = [1, 2, 3];
-numbers.push(4);
-var head = numbers[0];
+var ourTuple;
+ourTuple = [5, false, 'Coding God was here'];
+ourTuple.push('Something new and wrong');
+console.log(ourTuple);
