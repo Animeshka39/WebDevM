@@ -1,10 +1,3 @@
-var w = 1;
-w = "string";
-w = {
-    runANonExistentMethod: function () {
-        console.log("I think therefore I am");
-    }
-};
-if (typeof w === 'object' && w !== null) {
-    w.runANonExistentMethod();
-}
+var numbers = [1, 2, 3];
+numbers.push(4);
+var head = numbers[0];
